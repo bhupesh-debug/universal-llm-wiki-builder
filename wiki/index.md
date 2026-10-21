@@ -13,7 +13,8 @@ Welcome to the central content catalog for this knowledge system. This index is 
 
 | Concept | Status | Last Updated | Sources | Summary |
 | :--- | :--- | :--- | :--- | :--- |
-| *(No concepts ingested yet. Awaiting initial source drop.)* | | | | |
+| [[ai-watermarking-mechanisms]] | Active | 2026-10-21 | [[SRC-001]] | Taxonomy of syntactic, statistical, container, and pixel-domain AI watermarks. |
+| [[watermark-mitigation-strategies]] | Active | 2026-10-21 | [[SRC-001]] | Defense-in-depth countermeasures across deterministic, iterative, and structural tiers. |
 
 ---
 
@@ -22,7 +23,8 @@ Welcome to the central content catalog for this knowledge system. This index is 
 
 | Entity | Status | Last Updated | Sources | Summary |
 | :--- | :--- | :--- | :--- | :--- |
-| *(No entities registered yet.)* | | | | |
+| [[watermarks-remover]] | Active | 2026-10-21 | [[SRC-001]], [[SRC-002]] | Privacy-first CLI/HTTP service by Guillaume Meyer stripping multi-vendor AI marks. |
+| [[gitmcp]] | Active | 2026-10-21 | [[SRC-002]] | Hosted infrastructure by Ido Sal turning GitHub repositories into instant MCP endpoints. |
 
 ---
 
@@ -31,7 +33,8 @@ Welcome to the central content catalog for this knowledge system. This index is 
 
 | Method | Status | Last Updated | Sources | Summary |
 | :--- | :--- | :--- | :--- | :--- |
-| *(No methods cataloged yet.)* | | | | |
+| [[multi-layer-watermark-removal]] | Active | 2026-10-21 | [[SRC-001]] | Step-by-step pipeline for file classification, Layer A/B cleaning, and structural rebuilding. |
+| [[mcp-agent-integration]] | Active | 2026-10-21 | [[SRC-001]], [[SRC-002]] | Procedures for wiring AI development harnesses (Claude/Cursor) to MCP doc servers. |
 
 ---
 
@@ -40,7 +43,7 @@ Welcome to the central content catalog for this knowledge system. This index is 
 
 | Comparison | Status | Last Updated | Sources | Summary |
 | :--- | :--- | :--- | :--- | :--- |
-| *(No comparisons recorded yet.)* | | | | |
+| [[layer-a-vs-layer-b-text-cleaning]] | Active | 2026-10-21 | [[SRC-001]] | Detailed trade-off analysis between deterministic regex stripping and probabilistic rewriting. |
 
 ---
 
@@ -49,7 +52,7 @@ Welcome to the central content catalog for this knowledge system. This index is 
 
 | Question | Status | Last Updated | Sources | Summary |
 | :--- | :--- | :--- | :--- | :--- |
-| *(No open questions logged yet.)* | | | | |
+| [[statistical-watermark-removal-in-code]] | Open | 2026-10-21 | [[SRC-001]] | Methods to neutralize statistical watermarks in source code without syntax or logic bugs. |
 
 ---
 
@@ -58,7 +61,7 @@ Welcome to the central content catalog for this knowledge system. This index is 
 
 | Synthesis | Status | Last Updated | Sources | Summary |
 | :--- | :--- | :--- | :--- | :--- |
-| *(No syntheses compiled yet.)* | | | | |
+| [[ai-provenance-and-privacy-playbook]] | Active | 2026-10-21 | [[SRC-001]], [[SRC-002]] | Operational rules of engagement and ethical governance for content privacy & hygiene. |
 
 ---
 
@@ -67,4 +70,5 @@ Welcome to the central content catalog for this knowledge system. This index is 
 
 | Source ID | Title | Author | Date | Scope / Type | Page Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| *(No sources ingested yet. Place raw materials into `raw/` to begin.)* | | | | | |
+| `SRC-001` | watermarks-remover | Guillaume Meyer | 2026-10-15 | GitHub Repository (v0.7.0) | [[SRC-001]] |
+| `SRC-002` | GitMCP Documentation Server | Ido Sal (GitMCP) | 2026-10-20 | Remote MCP / Web Service | [[SRC-002]] |
